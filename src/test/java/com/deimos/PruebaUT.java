@@ -2,6 +2,7 @@ package com.deimos;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class PruebaUT {
@@ -11,6 +12,8 @@ public class PruebaUT {
 		Negocio sut = new Negocio();
 		
 		sut.metodo(true);
+		
+		Assert.fail();
 		
 		
 	}
